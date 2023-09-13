@@ -1,0 +1,48 @@
+@import "../../app/styles/mixins/flex";
+
+.button {
+  background: transparent;
+  color: inherit;
+
+  @include flex-center;
+
+  // Sizes
+  &_small {
+    width: 157px;
+    height: 32px;
+    padding: 8px;
+  }
+
+  &_medium {
+    width: 157px;
+    height: 40px;
+    padding: 8px;
+  }
+
+  &_large {
+    width: 193px;
+    height: 60px;
+    padding: 16px;
+  }
+
+  // Colors
+  &_red {
+    background: #d80000;
+    color: #f2f2f2;
+  }
+
+  &_green {
+    background: #70c05b;
+    color: #fff;
+  }
+
+  &_gray {
+    background: #f3f2f1;
+    color: #606060;
+  }
+
+  &_orange {
+    background: #f63;
+    color: #fff;
+  }
+}
